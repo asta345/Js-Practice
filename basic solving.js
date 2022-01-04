@@ -43,4 +43,40 @@ b = temp;
 console.log(`The value of a after swapping: ${a}`);
 console.log(`The value of b after swapping: ${b}`);
 
+// program to check if the number is even or odd
+// take input from the user
+const number = prompt("Enter a number: ");
+
+//check if the number is even
+if(number % 2 == 0) {
+    console.log("The number is even.");
+}
+
+// if the number is odd
+else {
+    console.log("The number is odd.");
+}
+
+<title>Quadratic Equation</title>
+ 
+ 
+<script type="text/javascript">
+<!--
+var a = prompt("Enter value of a","1");
+var b = prompt("Enter value of b","4");
+var c = prompt("Enter value of c","4");
+ 
+var root_part = Math.sqrt(b * b - 4 * a * c);
+var denom = 2 * a;
+ 
+var root1 = ( -b + root_part ) / denom;
+var root2 = ( -b - root_part ) / denom;
+ 
+document.write("1st root: "+root1+"<br />");
+document.write("2nd root: "+root2+"<br />");
+ 
+// -->
+</script>
+
+
 
