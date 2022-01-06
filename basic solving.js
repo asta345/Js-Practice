@@ -77,6 +77,8 @@ document.write("2nd root: "+root2+"<br />");
  
 // -->
 </script>
+console.log('basic programs ended');
+
 
 // programming with loops//
 
