@@ -81,5 +81,6 @@ console.log('basic programs ended');
 
 
 // programming with loops//
-
-
+square of n
+let squaredNumber = Math.pow(5,2);
+console.log("5*5 = ",squaredNumber);
