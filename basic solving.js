@@ -95,3 +95,12 @@ square of n
 let squaredNumber = Math.pow(5,2);
 console.log("5*5 = ",squaredNumber);
 
+// tabl//
+num => prompt('enter a no'){
+    if(num>14||num>1)
+        return console.log('error');
+    else times =0;
+    while num>=2;
+        num/=2;
+    times*=num
+    console.log('times);
