@@ -80,15 +80,15 @@ document.write("2nd root: "+root2+"<br />");
 console.log('basic programs ended');
 // factorial without using function//
 
-const num=prompt("enter a number");
-  if (num < 0) 
+const num = prompt("enter a number");
+  if (num < 0) {
         return -1;
   else if (num == 0) 
       return 1;
   else {
       return (num * factorialize(num - 1));
   }
-
+  }
 
 // programming with loops//
 square of n
