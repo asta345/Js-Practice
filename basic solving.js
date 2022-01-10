@@ -78,7 +78,8 @@ document.write("2nd root: "+root2+"<br />");
 // -->
 </script>
 console.log('basic programs ended');
-// factorial without using function
+// factorial without using function//
+
 const num=prompt("enter a number");
   if (num < 0) 
         return -1;
@@ -87,8 +88,6 @@ const num=prompt("enter a number");
   else {
       return (num * factorialize(num - 1));
   }
-
-factorialize(5);
 
 
 // programming with loops//
