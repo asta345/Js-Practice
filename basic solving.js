@@ -118,3 +118,4 @@ for (let i = 1; i <= number; i++) {
 }
 
 console.log('The sum of natural numbers:', sum);
+//
